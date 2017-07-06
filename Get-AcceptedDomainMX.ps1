@@ -1,15 +1,12 @@
 <#
     .SYNOPSIS
     Performs external MX queries for all found configured AcceptedDomains in Exchange environment.
-
     .DESCRIPTION
     The script retrieves All configured AcceptedDomains in Exchange environment and checks the corresponding domain names for MX pointers via Googles public 8.8.8.8 NS server.
-    This is a quick at-a-glance way to tell if a domain is no loinger in use in the envronment.
+    This is a quick at-a-glance way to tell if a domain is no longer in use in the environment.
     Especially useful in Hosted solutions.
-
     .INPUTS
     None
-
     .OUTPUTS
     Two results generated;
     .\AcceptedDomainMXlookup_HARD.txt.
@@ -18,14 +15,11 @@
     .\AcceptedDomainMXlookup_SOFT.txt.
     Correct if MX inc "mx.domain.com".
     eg, working, but not "correct".
-
     .EXAMPLE
     .\Get-AcceptedDomainMX.ps1
-
     .NOTES
-    You need to run this script with Exchange modules enalbes as to be able to use 'Get-AcceptedDomain'.
-    No changes are made to the Exhcnage envirorment.
-
+    You need to run this script with Exchange modules enables as to be able to use 'Get-AcceptedDomain'.
+    No changes are made to the Exchange environment.
     .NOTES
     Remember to swap the #Variables to match your settings.
 #>
