@@ -18,10 +18,10 @@
     .EXAMPLE
     .\Get-AcceptedDomainMX.ps1
     .NOTES
-    You need to run this script with Exchange modules enables as to be able to use 'Get-AcceptedDomain'.
+    You need to run this script with Exchange modules enabled as to be able to use 'Get-AcceptedDomain'.
     No changes are made to the Exchange environment.
     .NOTES
-    Remember to swap the #Variables to match your settings.
+    Remember to swap the # Variables to match your settings.
 #>
 
 # Set Error Action to Silently Continue
