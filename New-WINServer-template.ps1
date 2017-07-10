@@ -1,6 +1,6 @@
 <#
     .SYNOPSIS
-    Command reference template for installing a Windows Server on Hyper-V.
+    Command reference template for installing a Windows Server running on Hyper-V.
     .DESCRIPTION
     A set of command references used to go from a blank Hyper-V based VM with a single NIC to a standardised Windows Server ready for action.
     The code creates a separate administrative account $customAdminName for future use.
