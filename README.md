@@ -1,5 +1,5 @@
 # PoSH-tbx
-Collection of miscellaneous Powershell scrips and references
+Collection of miscellaneous Powershell scripts and references
 
 ## Windows Server
 #### New-WINServer-template.ps1
