@@ -2,7 +2,7 @@
     .SYNOPSIS
     Command reference template for installing a Windows Server running on Hyper-V.
     .DESCRIPTION
-    A set of command references used to go from a blank Hyper-V based VM with a single NIC to a standardised Windows Server ready for action.
+    A set of command references used to go from a blank Hyper-V based VM with a single NIC to a standardized Windows Server ready for action.
     The code creates a separate administrative account $customAdminName for future use.
     The code does contain passwords in clear text and should be handled accordingly.
     .INPUTS
@@ -17,7 +17,7 @@
     Remember to swap the # Variables to match your settings.
     .NOTES
     Assumes single Disk - C:
-    (DVD driver as D:)
+    (DVD drive as D:)
     Assumes single NIC - "NetConnectionID = 'Ethernet'"
 #>
 
