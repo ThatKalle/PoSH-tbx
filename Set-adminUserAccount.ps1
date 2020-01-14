@@ -53,7 +53,7 @@ function Set-adminUserAccount {
         } else {
             Write-Host "Local admin account not found... Creating"
             # Create local .\admin account
-            $localadmin = New-LocalUser -Name "admin" -FullName "admin" -Description "Qos Administrative Account." -Password $Password -PasswordNeverExpires
+            $localadmin = New-LocalUser -Name "admin" -FullName "admin" -Description "Administrative Account." -Password $Password -PasswordNeverExpires
             Add-LocalGroupMember -Group (Get-LocalGroup -SID S-1-5-32-544).Name -Member $localadmin.Name
             Enable-LocalUser -Name $localadmin.Name
             $admincreated = $true
